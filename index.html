@@ -3,40 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/png"href="images/favicon-32x32.png">
+    <title>Build a Results Summary Component</title>
+    
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <main class="container">
         <section class="S1">
-<h2>Your Result</h2> <br>
+<h3 id="yourresult">Your Result</h3> <br>
 <div class="circle">
     <h1><strong>76</strong></h1> 
-    <p>of 100</p>
+    <p id="of100">of 100</p>
 </div>
 <br>
-<h1>Great</h1> 
-<p>You scored higher than 65% of the people who have taken these tests</p>
+<h2>Great</h2> 
+<p id="thep">You scored higher than 65% of the people who have taken these tests</p>
         </section>
 
         <section class="S2">
 <h2>Summary</h2>
 <div class="red">
+    <img src="images/icon-reaction.svg" alt="reaction icon">
     <span id="reaction">Reaction</span> 
     <span><strong>80</strong>
     <span>/100</span></span>
 </div>
 <div class="yellow">
+    <img src="images/icon-memory.svg" alt="memory icon">
     <span id="memory">Memory</span> 
-    <span><strong>92</strong>
-    <span>/100</span></span>
+    <span><b>92</b>/100</span>
 </div>
 <div class="green">
+    <img src="images/icon-verbal.svg" alt="verbal icon">
     <span id="verbal">Verbal</span>
     <span><strong>61</strong>
     <span>/100</span></span>
 </div>
 <div class="blue">
+    <img src="images/icon-visual.svg" alt="visual icon">
     <span id="visual">Visual</span>
     <span><strong>73</strong>
     <span>/100</span></span>
