@@ -9,6 +9,7 @@ body {
   place-items: center;
   background: hsl(221, 100%, 96%);
   font-family: hanken-grotesk, sans-serif;
+  font-weight: 500, 700, 800;
 
  
 }
